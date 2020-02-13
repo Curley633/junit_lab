@@ -19,4 +19,16 @@ public class CounterTest {
         myCounter = new Counter();
         assertEquals(0, myCounter.getCount());
     }
+    @Test
+    void testIncrement()
+    {
+        myCounter = new Counter();
+        assertEquals(1, myCounter.increment());
+    }
+    @Test
+    void testDecrement()
+    {
+        myCounter = new Counter();
+        assertEquals(-1, myCounter.decrement());
+    }
 }

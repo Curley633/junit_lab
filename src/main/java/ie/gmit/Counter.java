@@ -10,4 +10,16 @@ public class Counter {
     public int getCount() {
         return count;
     }
+
+    public int increment()
+    {
+        count++;
+        return count;
+    }
+
+    public int decrement()
+    {
+        count--;
+        return count;
+    }
 }
